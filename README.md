@@ -1,4 +1,4 @@
-# data-science
+**Book Recommendation System**
 **Introduction:**
 
 In today's digital age, recommender systems play a crucial role in various industries, from e-commerce to online advertisement. These systems aim to provide personalized recommendations to users, helping them discover relevant items based on their preferences and behavior. This project focuses on developing a book recommender system, which aims to recommend books to users based on their reading history. By leveraging collaborative filtering techniques, the system can enhance user engagement and satisfaction by suggesting books that align with their interests.
