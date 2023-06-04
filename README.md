@@ -14,7 +14,7 @@ The project utilizes a dataset containing information about users, books, and th
 
 **Approach:**
 
-The project employs a collaborative filtering algorithm, utilizing the Surprise library in Python. This algorithm leverages matrix factorization techniques to decompose the user-item rating matrix into lower-dimensional matrices. By estimating missing ratings through the dot product of user and item matrices, the algorithm generates accurate predictions for book ratings. The system evaluates the algorithm's performance using metrics such as root mean squared error (RMSE) and mean average precision at k (MAP@k). These metrics provide insights into the accuracy and precision of the recommendations.
+The project employs a collaborative filtering algorithm, utilizing the Surprise library in Python. This algorithm leverages matrix factorization techniques to decompose the user-item rating matrix into lower-dimensional matrices. By estimating missing ratings through the dot product of user and item matrices, the algorithm generates accurate predictions for book ratings. The system evaluates the algorithm's performance using metrics such as root mean squared error (RMSE) . These metrics provide insights into the accuracy and precision of the recommendations.
 
 **Conclusion:**
 
