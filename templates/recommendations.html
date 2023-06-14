@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+</head>
+<body>
+    <h1>Top 10 Recommendations</h1>
+    <table>
+        <tr>
+            <th>ISBN</th>
+            <th>Book Title</th>
+            <th>Book Rating</th>
+            <th>Image</th>
+        </tr>
+        {% for recommendation in recommendations %}
+        <tr>
+            <td>{{ recommendation.ISBN }}</td>
+            <td>{{ recommendation['Book-Title'] }}</td>
+            <td>{{ recommendation['Book-Rating'] }}</td>
+            <td><img src="{{ recommendation['Image-URL-S'] }}"></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
